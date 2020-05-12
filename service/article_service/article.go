@@ -3,10 +3,10 @@ package article_service
 import (
 	"encoding/json"
 
-	"github.com/flyrory/go-gin-example/models"
-	"github.com/flyrory/go-gin-example/pkg/gredis"
-	"github.com/flyrory/go-gin-example/pkg/logging"
-	"github.com/flyrory/go-gin-example/service/cache_service"
+	"github.com/flyrory/go-gin-blog/models"
+	"github.com/flyrory/go-gin-blog/pkg/gredis"
+	"github.com/flyrory/go-gin-blog/pkg/logging"
+	"github.com/flyrory/go-gin-blog/service/cache_service"
 )
 
 type Article struct {

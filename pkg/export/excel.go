@@ -1,6 +1,6 @@
 package export
 
-import "github.com/flyrory/go-gin-example/pkg/setting"
+import "github.com/flyrory/go-gin-blog/pkg/setting"
 
 const EXT = ".xlsx"
 

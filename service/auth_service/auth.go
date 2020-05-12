@@ -1,6 +1,6 @@
 package auth_service
 
-import "github.com/flyrory/go-gin-example/models"
+import "github.com/flyrory/go-gin-blog/models"
 
 type Auth struct {
 	Username string

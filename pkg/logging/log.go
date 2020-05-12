@@ -2,7 +2,7 @@ package logging
 
 import (
 	"fmt"
-	"github.com/flyrory/go-gin-example/pkg/file"
+	"github.com/flyrory/go-gin-blog/pkg/file"
 	"log"
 	"os"
 	"path/filepath"

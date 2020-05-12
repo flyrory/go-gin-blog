@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/flyrory/go-gin-example/pkg/e"
+	"github.com/flyrory/go-gin-blog/pkg/e"
 )
 
 type Tag struct {

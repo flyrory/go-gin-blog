@@ -8,10 +8,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/flyrory/go-gin-example/pkg/file"
-	"github.com/flyrory/go-gin-example/pkg/logging"
-	"github.com/flyrory/go-gin-example/pkg/setting"
-	"github.com/flyrory/go-gin-example/pkg/util"
+	"github.com/flyrory/go-gin-blog/pkg/file"
+	"github.com/flyrory/go-gin-blog/pkg/logging"
+	"github.com/flyrory/go-gin-blog/pkg/setting"
+	"github.com/flyrory/go-gin-blog/pkg/util"
 )
 
 // GetImageFullUrl get the full access path

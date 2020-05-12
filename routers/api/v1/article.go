@@ -8,13 +8,13 @@ import (
 	"github.com/boombuler/barcode/qr"
 	"github.com/gin-gonic/gin"
 
-	"github.com/EDDYCJY/go-gin-example/pkg/app"
-	"github.com/EDDYCJY/go-gin-example/pkg/e"
-	"github.com/EDDYCJY/go-gin-example/pkg/qrcode"
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
-	"github.com/EDDYCJY/go-gin-example/pkg/util"
-	"github.com/EDDYCJY/go-gin-example/service/article_service"
-	"github.com/EDDYCJY/go-gin-example/service/tag_service"
+	"github.com/flyrory/go-gin-blog/pkg/app"
+	"github.com/flyrory/go-gin-blog/pkg/e"
+	"github.com/flyrory/go-gin-blog/pkg/qrcode"
+	"github.com/flyrory/go-gin-blog/pkg/setting"
+	"github.com/flyrory/go-gin-blog/pkg/util"
+	"github.com/flyrory/go-gin-blog/service/article_service"
+	"github.com/flyrory/go-gin-blog/service/tag_service"
 )
 
 // @Summary Get a single article

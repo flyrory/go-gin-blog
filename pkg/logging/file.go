@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/flyrory/go-gin-example/pkg/setting"
+	"github.com/flyrory/go-gin-blog/pkg/setting"
 )
 
 // getLogFilePath get the log file save path

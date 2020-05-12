@@ -7,12 +7,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/flyrory/go-gin-example/models"
-	"github.com/flyrory/go-gin-example/pkg/gredis"
-	"github.com/flyrory/go-gin-example/pkg/logging"
-	"github.com/flyrory/go-gin-example/pkg/setting"
-	"github.com/flyrory/go-gin-example/routers"
-	"github.com/flyrory/go-gin-example/pkg/util"
+	"github.com/flyrory/go-gin-blog/models"
+	"github.com/flyrory/go-gin-blog/pkg/gredis"
+	"github.com/flyrory/go-gin-blog/pkg/logging"
+	"github.com/flyrory/go-gin-blog/pkg/setting"
+	"github.com/flyrory/go-gin-blog/pkg/util"
+	"github.com/flyrory/go-gin-blog/routers"
 )
 
 func init() {

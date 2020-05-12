@@ -3,7 +3,7 @@ package app
 import (
 	"github.com/astaxie/beego/validation"
 
-	"github.com/flyrory/go-gin-example/pkg/logging"
+	"github.com/flyrory/go-gin-blog/pkg/logging"
 )
 
 // MarkErrors logs error logs

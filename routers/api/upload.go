@@ -5,10 +5,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/flyrory/go-gin-example/pkg/app"
-	"github.com/flyrory/go-gin-example/pkg/e"
-	"github.com/flyrory/go-gin-example/pkg/logging"
-	"github.com/flyrory/go-gin-example/pkg/upload"
+	"github.com/flyrory/go-gin-blog/pkg/app"
+	"github.com/flyrory/go-gin-blog/pkg/e"
+	"github.com/flyrory/go-gin-blog/pkg/logging"
+	"github.com/flyrory/go-gin-blog/pkg/upload"
 )
 
 // @Summary Import Image

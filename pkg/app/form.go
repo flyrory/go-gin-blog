@@ -5,7 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"net/http"
 
-	"github.com/flyrory/go-gin-example/pkg/e"
+	"github.com/flyrory/go-gin-blog/pkg/e"
 )
 
 // BindAndValid binds and validates data
