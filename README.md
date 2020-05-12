@@ -6,7 +6,7 @@ An example of gin contains many useful features
 
 ## Installation
 ```
-$ go get github.com/EDDYCJY/go-gin-example
+$ go get github.com/flyrory/go-gin-blog
 ```
 
 ## How to run
@@ -44,7 +44,7 @@ IdleTimeout = 200
 
 ### Run
 ```
-$ cd $GOPATH/src/go-gin-example
+$ cd $GOPATH/src/go-gin-blog
 
 $ go run main.go 
 ```
