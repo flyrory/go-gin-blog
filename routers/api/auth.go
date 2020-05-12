@@ -23,7 +23,7 @@ type auth struct {
 // @Param password query string true "password"
 // @Success 200 {object} app.Response
 // @Failure 500 {object} app.Response
-// @Router /auth [get]
+// @Router /auth [post]
 func GetAuth(c *gin.Context) {
 	appG := app.Gin{C: c}
 	valid := validation.Validation{}
