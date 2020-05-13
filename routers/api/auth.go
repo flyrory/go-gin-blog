@@ -19,17 +19,20 @@ type auth struct {
 
 // @Summary Get Auth
 // @Produce  json
-// @Param username query string true "userName"
-// @Param password query string true "password"
+// @Param body body string true "userName|password"
 // @Success 200 {object} app.Response
 // @Failure 500 {object} app.Response
 // @Router /auth [post]
 func GetAuth(c *gin.Context) {
 	appG := app.Gin{C: c}
 	valid := validation.Validation{}
-
-	username := c.PostForm("username")
-	password := c.PostForm("password")
+	var username string
+	var password string
+	authObj := &auth{}
+	if c.BindJSON(authObj) == nil{
+		username = authObj.Username
+		password = authObj.Password
+	}
 
 	a := auth{Username: username, Password: password}
 	ok, _ := valid.Valid(&a)

@@ -344,16 +344,12 @@ paths:
   /auth:
     post:
       parameters:
-      - description: userName
-        in: query
-        name: username
+      - description: userName|password
+        in: body
+        name: body
         required: true
-        type: string
-      - description: password
-        in: query
-        name: password
-        required: true
-        type: string
+        schema:
+          type: string
       produces:
       - application/json
       responses:
